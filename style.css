@@ -24,7 +24,7 @@ nav{
 
 .frase{
     display: flex;
-    gap: 30px;
+    gap: 20px;
 }
 
 .header-content{
@@ -44,5 +44,28 @@ nav{
 }
 
 .header-content button:hover{
-    background-color: rgb(58, 58, 34);
+    background-color: #586126;
+    transform: scale(1.1);
+}
+
+button{
+    background: #353B17;
+    text-transform: uppercase;
+    font-weight:bolder;
+    box-shadow: 10px 8px 10px black;
+    transition: all 1s;
+}
+
+.frase p{
+    transition: all 0.5s;
+}
+.frase p:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    color: #586126;
+    font-weight: bolder;
+}
+
+strong{
+    color: #586126;
 }
